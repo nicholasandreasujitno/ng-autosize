@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "stevepapa/ng-autosize#pull/13/head",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "stevepapa/ng-autosize#pull/13/head",
+        "spec": "github:stevepapa/ng-autosize#pull/13/head",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:stevepapa/ng-autosize.git#pull/13/head",
+          "sshUrl": "git+ssh://git@github.com/stevepapa/ng-autosize.git#pull/13/head",
+          "httpsUrl": "git+https://github.com/stevepapa/ng-autosize.git#pull/13/head",
+          "gitUrl": "git://github.com/stevepapa/ng-autosize.git#pull/13/head",
+          "shortcut": "github:stevepapa/ng-autosize#pull/13/head",
+          "directUrl": "https://raw.githubusercontent.com/stevepapa/ng-autosize/pull%2F13%2Fhead/package.json"
+        }
+      },
+      "E:\\be-hire\\development_code\\Angular_Tutorial\\MaterialAdmin-ag5"
+    ]
+  ],
+  "_from": "stevepapa/ng-autosize#pull/13/head",
+  "_id": "ng-autosize@1.2.0",
+  "_inCache": true,
+  "_location": "/ng-autosize",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "stevepapa/ng-autosize#pull/13/head",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "stevepapa/ng-autosize#pull/13/head",
+    "spec": "github:stevepapa/ng-autosize#pull/13/head",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:stevepapa/ng-autosize.git#pull/13/head",
+      "sshUrl": "git+ssh://git@github.com/stevepapa/ng-autosize.git#pull/13/head",
+      "httpsUrl": "git+https://github.com/stevepapa/ng-autosize.git#pull/13/head",
+      "gitUrl": "git://github.com/stevepapa/ng-autosize.git#pull/13/head",
+      "shortcut": "github:stevepapa/ng-autosize#pull/13/head",
+      "directUrl": "https://raw.githubusercontent.com/stevepapa/ng-autosize/pull%2F13%2Fhead/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/stevepapa/ng-autosize.git#181d8b3fe585f76fa79eaffb5dacb10e3c974f43",
+  "_shasum": "17e0972979e85b592dad230af008f51ae1e77bee",
+  "_shrinkwrap": null,
+  "_spec": "stevepapa/ng-autosize#pull/13/head",
+  "_where": "E:\\be-hire\\development_code\\Angular_Tutorial\\MaterialAdmin-ag5",
+  "author": {
+    "name": "Steve Papa",
+    "email": "dev@stevepapa.com"
+  },
+  "bugs": {
+    "url": "https://github.com/stevepapa/ng-autosize/issues"
+  },
+  "dependencies": {},
+  "description": "Angular Directive that automatically adjusts textarea height to fit content",
+  "devDependencies": {
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "rimraf": "^2.0.0",
+    "rxjs": "^5.0.0",
+    "typescript": "^2.0.0",
+    "zone.js": "^0.8.0"
+  },
+  "gitHead": "181d8b3fe585f76fa79eaffb5dacb10e3c974f43",
+  "homepage": "https://github.com/stevepapa/ng-autosize#readme",
+  "keywords": [
+    "ng2",
+    "angular",
+    "angular2",
+    "autosize",
+    "textarea",
+    "elastic",
+    "height",
+    "ng-autosize",
+    "@angular",
+    "ngx-autosize",
+    "ngx",
+    "angular4",
+    "angular5",
+    "resize",
+    "angular2-autosize"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "ng-autosize",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "ts-helpers": "^1.0.0"
+  },
+  "readme": "# ng-autosize\r\n\r\n***ng-autosize*** is an Angular2, Angular4 + directive that automatically adjusts textarea height to fit content.\r\n\r\nIt adjusts the textarea height automatically to any text input, or changes to the model bound to the textarea.\r\n\r\n## Demo\r\n\r\n[http://stevepapa.com/ng-autosize](http://stevepapa.com/ng-autosize)\r\n\r\n## Installation:\r\n\r\n```bash\r\nnpm install ng-autosize\r\n```\r\n\r\n## Use Example:\r\n\r\nAdd the declaration to your @NgModule:\r\n\r\n```typescript\r\nimport {Autosize} from 'ng-autosize';\r\n\r\n...\r\n\r\n@NgModule({\r\n  declarations: [\r\n    Autosize\r\n  ]\r\n})\r\n```\r\n\r\nUse directly inside your HTML templates by adding the word 'autosize' to any textarea.\r\n\r\n```\r\n<textarea autosize>Hello, this is an example of Autosize in Angular2.</textarea>\r\n```\r\n\r\n## Extra Configuration Options:\r\n\r\nSet a minimum height on your textarea.\r\n\r\n```\r\n<textarea autosize [minHeight]=\"60\">Hello, this is an example of Autosize in Angular2 with a Min Height.</textarea>\r\n```\r\n\r\nSet a maximum height on your textarea.\r\n\r\n```\r\n<textarea autosize [maxHeight]=\"120\">Hello, this is an example of Autosize in Angular2 with a Max Height.</textarea>\r\n```\r\n\r\n\r\n## Author\r\n\r\n[Steve Papa](https://stevepapa.com)\r\n\r\n## Licence\r\n\r\nThis project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevepapa/ng-autosize.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && ngc -p tsconfig-aot.json"
+  },
+  "type": "dist/index.d.ts",
+  "version": "1.2.0"
+}

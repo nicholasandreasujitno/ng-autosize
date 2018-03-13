@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "outDir": "./dist",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "noEmitHelpers": true,
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "files": [
+    "./index.ts"
+  ],
+  "exclude": ["node_modules"]
+}
