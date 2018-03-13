@@ -5,8 +5,8 @@ import { Input, AfterViewInit, ElementRef, HostListener, Directive } from '@angu
 })
 export class ngAutosizeDirective implements AfterViewInit {
   private _el: HTMLElement;
-  private _minHeight: string;
-  private _maxHeight: string;
+  private _minHeight: string = "";
+  private _maxHeight: string = "";
   private _clientWidth: number;
 
   @Input('minHeight')

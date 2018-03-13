@@ -24,7 +24,7 @@ import { AutosizeModule } from 'ng-autosize';
 ...
 
 @NgModule({
-  declarations: [
+  imports: [
     AutosizeModule
   ]
 })
