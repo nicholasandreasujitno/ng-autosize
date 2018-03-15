@@ -1,10 +1,10 @@
 {
-  "name": "ng-autosize",
+  "name": "ng-autosize2",
   "version": "1.2.1",
   "description": "Angular Directive that automatically adjusts textarea height to fit content",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevepapa/ng-autosize.git"
+    "url": "git+https://github.com/nicholasandreasujitno/ng-autosize2.git"
   },
   "scripts": {
     "build": "rimraf dist && ngc -p tsconfig-aot.json"
