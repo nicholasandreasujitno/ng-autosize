@@ -6,12 +6,12 @@ It adjusts the textarea height automatically to any text input, or changes to th
 
 ## Code
 
-[https://github.com/nicholasandreasujitno/ng-autosize](https://github.com/nicholasandreasujitno/ng-autosize)
+[https://github.com/nicholasandreasujitno/ng-autosize2](https://github.com/nicholasandreasujitno/ng-autosize2)
 
 ## Installation:
 
 ```bash
-npm install --save https://github.com/nicholasandreasujitno/ng-autosize.git
+npm install --save https://github.com/nicholasandreasujitno/ng-autosize2.git
 ```
 
 ## Use Example:
@@ -19,7 +19,7 @@ npm install --save https://github.com/nicholasandreasujitno/ng-autosize.git
 Add the declaration to your @NgModule:
 
 ```typescript
-import { AutosizeModule } from 'ng-autosize';
+import { AutosizeModule } from 'ng-autosize2';
 
 ...
 
